@@ -1,0 +1,85 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+	<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=windows-1252">
+	<TITLE></TITLE>
+	<META NAME="GENERATOR" CONTENT="OpenOffice.org 3.2  (Win32)">
+	<META NAME="CREATED" CONTENT="20100927;19563400">
+	<META NAME="CHANGED" CONTENT="20100927;22463400">
+	<STYLE TYPE="text/css">
+	<!--
+		@page { margin: 0.79in }
+		P { margin-bottom: 0.08in }
+		A:link { so-language: zxx }
+	-->
+	</STYLE>
+</HEAD>
+<BODY LANG="en-US" DIR="LTR">
+<P STYLE="margin-bottom: 0in"><B>How to hack your badge</B></P>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+<P STYLE="margin-bottom: 0in">Create an account at
+<A HREF="http://lpcxpresso.code-red-tech.com/LPCXpresso/">http://lpcxpresso.code-red-tech.com/LPCXpresso/</A></P>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+<P STYLE="margin-bottom: 0in">Once your account is activated (email
+notification), download the IDE from</P>
+<P STYLE="margin-bottom: 0in">Windows:
+<A HREF="http://lpcxpresso.code-red-tech.com/LPCXpresso/Windows">http://lpcxpresso.code-red-tech.com/LPCXpresso/Windows</A></P>
+<P STYLE="margin-bottom: 0in">Linux:
+<A HREF="http://lpcxpresso.code-red-tech.com/LPCXpresso/Linux">http://lpcxpresso.code-red-tech.com/LPCXpresso/Linux</A></P>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+<P STYLE="margin-bottom: 0in">Activate according to the instructions
+on one of the above install pages</P>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+<P STYLE="margin-bottom: 0in">Download
+\\Kwartzstation\Arduinator\SVN.ZIP</P>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+<P STYLE="margin-bottom: 0in">Unzip SVN.ZIP to a directory</P>
+<P STYLE="margin-bottom: 0in">You should have a directory named &ldquo;SVN&rdquo;</P>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+<P STYLE="margin-bottom: 0in">Open LPCXpresso</P>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+<P STYLE="margin-bottom: 0in">Go to File-&gt;Import</P>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+<P STYLE="margin-bottom: 0in">Import General-&gt;Existing Projects</P>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+<P STYLE="margin-bottom: 0in">Browse to SVN, click OK</P>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+<P STYLE="margin-bottom: 0in">You should now see 3 projects under
+&ldquo;Project Explorer&rdquo;</P>
+<UL>
+	<LI><P STYLE="margin-bottom: 0in">Arduinizer</P>
+	<LI><P STYLE="margin-bottom: 0in">CMSISv1p30</P>
+</UL>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+<P STYLE="margin-bottom: 0in">Ensure the following for all 3 projects</P>
+<P STYLE="margin-bottom: 0in">Build-&gt;Build Configurations-&gt;Set
+Active is <B>Release</B></P>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+<P STYLE="margin-bottom: 0in; font-weight: normal">Click the little
+hammer (or Ctrl+b) to build</P>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+<P STYLE="margin-bottom: 0in; font-weight: normal">Connect the badge
+to your computer via the USB connection. It should show up as a USB
+mass storage device</P>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+<P STYLE="margin-bottom: 0in; font-weight: normal">Copy the output
+.HEX file to the badge</P>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+<P STYLE="margin-bottom: 0in; font-weight: normal">Enjoy!</P>
+</BODY>
+</HTML>

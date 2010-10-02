@@ -1,0 +1,20 @@
+!SESSION 2010-09-23 20:51:56.098 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_18
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data C:\Documents and Settings\amackie\My Documents\SVN\Arduinator
+
+!ENTRY org.eclipse.ui 4 4 2010-09-23 20:52:19.461
+!MESSAGE Unable to find view with id: com.crt.swv.views.SwvViews, when creating perspective com.crt.lite.perspective.CRTPerspective
+
+!ENTRY org.eclipse.ui.workbench 2 0 2010-09-23 20:52:26.431
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2010-09-23 20:52:26.431
+!MESSAGE Conflict for 'AUTOGEN:::com.crt.quickstart.utils/com.crt.quickstart.action.debugconfig':
+HandlerActivation(commandId=AUTOGEN:::com.crt.quickstart.utils/com.crt.quickstart.action.debugconfig,
+	handler=ActionDelegateHandlerProxy(null,com.crt.quickstart.utils.QSUtilCleanDebugConfig),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@54824),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::com.crt.quickstart.utils/com.crt.quickstart.action.debugconfig,
+	handler=ActionDelegateHandlerProxy(null,com.crt.quickstart.utils.QSUtilOpenDebugConfig),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@54824),sourcePriority=16384)

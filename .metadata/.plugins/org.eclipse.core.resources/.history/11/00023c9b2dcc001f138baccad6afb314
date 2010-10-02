@@ -1,0 +1,49 @@
+/*
+ * program.c
+ *
+ *  Created on: Sep 2, 2010
+ *      Author: amackie
+ */
+
+#include "SoonCon2010Badge.h"
+
+byte redTime;
+byte greenTime;
+byte blueTime;
+
+void setup()
+{
+	pinMode(LIGHT_1_RED, OUTPUT);
+	pinMode(LIGHT_1_GREEN, OUTPUT);
+	pinMode(LIGHT_1_BLUE, OUTPUT);
+
+	pinMode(LIGHT_2_RED, OUTPUT);
+	pinMode(LIGHT_2_GREEN, OUTPUT);
+	pinMode(LIGHT_2_BLUE, OUTPUT);
+
+	byte redTime = 0;
+	byte greenTime = 0;
+	blueTime = 0;
+}
+
+void loop()
+{
+	redTime++;
+	greenTime++;
+	blueTime++;
+
+	digitalWrite(LIGHT_1_RED, LOW);
+	digitalWrite(LIGHT_1_GREEN, LOW);
+	digitalWrite(LIGHT_1_BLUE, LOW);
+
+	for(byte lightTime=0;lightTime<10;lightTime++)
+	{
+		for(byte pulse=0;pulse<256;pulse++)
+		{
+			digitalWrite(LIGHT_1_RED, 0);
+			digitalWrite(LIGHT_1_GREEN, 0);
+			digitalWrite(LIGHT_1_BLUE, 0);
+			delay(1);
+		}
+	}
+}

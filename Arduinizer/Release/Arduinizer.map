@@ -1,0 +1,571 @@
+Archive member included because of file (symbol)
+
+C:\Documents and Settings\amackie\My Documents\SVN\CMSISv1p30_LPC13xx\Release\libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+                              ./src/cr_startup_lpc13.o (SystemInit)
+C:\Documents and Settings\amackie\My Documents\SVN\LPC13xx_Lib\Release\libLPC13xx_Lib.a(gpio.o)
+                              ./src/Arduinator.o (GPIOInit)
+C:\Documents and Settings\amackie\My Documents\SVN\LPC13xx_Lib\Release\libLPC13xx_Lib.a(uart.o)
+                              ./src/Arduinator.o (UARTInit)
+c:/nxp/lpcxpresso_3.4/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(__weak__main.o)
+                              ./src/cr_startup_lpc13.o (__main)
+c:/nxp/lpcxpresso_3.4/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(ctype.o)
+                              c:/nxp/lpcxpresso_3.4/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(__weak__main.o) (_ctype_init)
+c:/nxp/lpcxpresso_3.4/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(__init_alloc.o)
+                              c:/nxp/lpcxpresso_3.4/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(__weak__main.o) (_init_alloc)
+c:/nxp/lpcxpresso_3.4/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2\libcr_eabihelpers.a(float.o)
+                              ./src/Arduinator.o (__aeabi_fmul)
+
+Allocating common symbols
+Common symbol       size              file
+
+g_randomSeed        0x4               ./src/Arduinator.o
+g_serialBuffer      0x80              ./src/Arduinator.o
+colourMode          0x1               ./src/program.o
+g_systemMicroTicks  0x4               ./src/Arduinator.o
+UARTBuffer          0x40              C:\Documents and Settings\amackie\My Documents\SVN\LPC13xx_Lib\Release\libLPC13xx_Lib.a(uart.o)
+colourChange        0x4               ./src/program.o
+blueTime            0x1               ./src/program.o
+g_systemMacroTicks  0x4               ./src/Arduinator.o
+Serial              0x20              ./src/Arduinator.o
+g_serialEnd         0x4               ./src/Arduinator.o
+UARTStatus          0x4               C:\Documents and Settings\amackie\My Documents\SVN\LPC13xx_Lib\Release\libLPC13xx_Lib.a(uart.o)
+g_systemMilliTicks  0x4               ./src/Arduinator.o
+g_serialStart       0x4               ./src/Arduinator.o
+ADCValue            0x20              ./src/Arduinator.o
+redTime             0x1               ./src/program.o
+__heaps             0x4               c:/nxp/lpcxpresso_3.4/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(__init_alloc.o)
+__end_of_heap       0x4               c:/nxp/lpcxpresso_3.4/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(__init_alloc.o)
+greenTime           0x1               ./src/program.o
+
+Discarded input sections
+
+ .text          0x00000000        0x0 ./src/Arduinator.o
+ .bss           0x00000000        0x0 ./src/Arduinator.o
+ .text.ADCInit  0x00000000        0x0 ./src/Arduinator.o
+ .text.ADCRead  0x00000000        0x0 ./src/Arduinator.o
+ .text.randomSeed
+                0x00000000        0x0 ./src/Arduinator.o
+ .text.random   0x00000000        0x0 ./src/Arduinator.o
+ .text.analogRead
+                0x00000000        0x0 ./src/Arduinator.o
+ .text.noTone   0x00000000        0x0 ./src/Arduinator.o
+ .text.micros   0x00000000        0x0 ./src/Arduinator.o
+ .text.delay    0x00000000        0x0 ./src/Arduinator.o
+ .text.min      0x00000000        0x0 ./src/Arduinator.o
+ .text.max      0x00000000        0x0 ./src/Arduinator.o
+ .text.abs      0x00000000        0x0 ./src/Arduinator.o
+ .text.constrain
+                0x00000000        0x0 ./src/Arduinator.o
+ .text.map      0x00000000        0x0 ./src/Arduinator.o
+ .text.digitalRead
+                0x00000000        0x0 ./src/Arduinator.o
+ .text.pulseIn  0x00000000        0x0 ./src/Arduinator.o
+ .text.pulseIn2
+                0x00000000        0x0 ./src/Arduinator.o
+ .text.shiftOut
+                0x00000000        0x0 ./src/Arduinator.o
+ .text.pwm      0x00000000        0x0 ./src/Arduinator.o
+ .text.tone     0x00000000        0x0 ./src/Arduinator.o
+ .text.analogWrite
+                0x00000000        0x0 ./src/Arduinator.o
+ .text          0x00000000        0x0 ./src/cr_startup_lpc13.o
+ .data          0x00000000        0x0 ./src/cr_startup_lpc13.o
+ .bss           0x00000000        0x0 ./src/cr_startup_lpc13.o
+ .text.SysTick_Handler
+                0x00000000        0x0 ./src/cr_startup_lpc13.o
+ .text          0x00000000        0x0 ./src/program.o
+ .data          0x00000000        0x0 ./src/program.o
+ .bss           0x00000000        0x0 ./src/program.o
+ .text          0x00000000        0x0 ./src/timer16_int.o
+ .data          0x00000000        0x0 ./src/timer16_int.o
+ .text          0x00000000        0x0 C:\Documents and Settings\amackie\My Documents\SVN\CMSISv1p30_LPC13xx\Release\libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+ .bss           0x00000000        0x0 C:\Documents and Settings\amackie\My Documents\SVN\CMSISv1p30_LPC13xx\Release\libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+ .text.SystemCoreClockUpdate
+                0x00000000        0x0 C:\Documents and Settings\amackie\My Documents\SVN\CMSISv1p30_LPC13xx\Release\libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+ .text          0x00000000        0x0 C:\Documents and Settings\amackie\My Documents\SVN\LPC13xx_Lib\Release\libLPC13xx_Lib.a(gpio.o)
+ .data          0x00000000        0x0 C:\Documents and Settings\amackie\My Documents\SVN\LPC13xx_Lib\Release\libLPC13xx_Lib.a(gpio.o)
+ .bss           0x00000000        0x0 C:\Documents and Settings\amackie\My Documents\SVN\LPC13xx_Lib\Release\libLPC13xx_Lib.a(gpio.o)
+ .text.GPIOSetInterrupt
+                0x00000000        0x0 C:\Documents and Settings\amackie\My Documents\SVN\LPC13xx_Lib\Release\libLPC13xx_Lib.a(gpio.o)
+ .text.GPIOIntEnable
+                0x00000000        0x0 C:\Documents and Settings\amackie\My Documents\SVN\LPC13xx_Lib\Release\libLPC13xx_Lib.a(gpio.o)
+ .text.GPIOIntDisable
+                0x00000000        0x0 C:\Documents and Settings\amackie\My Documents\SVN\LPC13xx_Lib\Release\libLPC13xx_Lib.a(gpio.o)
+ .text.GPIOIntStatus
+                0x00000000        0x0 C:\Documents and Settings\amackie\My Documents\SVN\LPC13xx_Lib\Release\libLPC13xx_Lib.a(gpio.o)
+ .text.GPIOIntClear
+                0x00000000        0x0 C:\Documents and Settings\amackie\My Documents\SVN\LPC13xx_Lib\Release\libLPC13xx_Lib.a(gpio.o)
+ .text          0x00000000        0x0 C:\Documents and Settings\amackie\My Documents\SVN\LPC13xx_Lib\Release\libLPC13xx_Lib.a(uart.o)
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_3.4/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(__weak__main.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_3.4/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(__weak__main.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_3.4/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(__weak__main.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_3.4/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(ctype.o)
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_3.4/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(__init_alloc.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_3.4/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(__init_alloc.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_3.4/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(__init_alloc.o)
+ .text._start_module__init_alloc
+                0x00000000        0x0 c:/nxp/lpcxpresso_3.4/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(__init_alloc.o)
+ .text._end_module__init_alloc
+                0x00000000        0x0 c:/nxp/lpcxpresso_3.4/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(__init_alloc.o)
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_3.4/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2\libcr_eabihelpers.a(float.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_3.4/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2\libcr_eabihelpers.a(float.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_3.4/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2\libcr_eabihelpers.a(float.o)
+ .text.__aeabi_fmul
+                0x00000000        0x0 c:/nxp/lpcxpresso_3.4/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2\libcr_eabihelpers.a(float.o)
+ .text.__aeabi_fdiv
+                0x00000000        0x0 c:/nxp/lpcxpresso_3.4/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2\libcr_eabihelpers.a(float.o)
+ .text.__aeabi_fsub
+                0x00000000        0x0 c:/nxp/lpcxpresso_3.4/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2\libcr_eabihelpers.a(float.o)
+ .text.__aeabi_fadd
+                0x00000000        0x0 c:/nxp/lpcxpresso_3.4/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2\libcr_eabihelpers.a(float.o)
+ .text.__aeabi_frsub
+                0x00000000        0x0 c:/nxp/lpcxpresso_3.4/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2\libcr_eabihelpers.a(float.o)
+ .text.__aeabi_fneg
+                0x00000000        0x0 c:/nxp/lpcxpresso_3.4/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2\libcr_eabihelpers.a(float.o)
+ .text.__aeabi_f2iz
+                0x00000000        0x0 c:/nxp/lpcxpresso_3.4/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2\libcr_eabihelpers.a(float.o)
+ .text.__aeabi_f2uiz
+                0x00000000        0x0 c:/nxp/lpcxpresso_3.4/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2\libcr_eabihelpers.a(float.o)
+ .text.__aeabi_f2lz
+                0x00000000        0x0 c:/nxp/lpcxpresso_3.4/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2\libcr_eabihelpers.a(float.o)
+ .text.__aeabi_f2ulz
+                0x00000000        0x0 c:/nxp/lpcxpresso_3.4/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2\libcr_eabihelpers.a(float.o)
+ .text.__bhs_ui2f
+                0x00000000        0x0 c:/nxp/lpcxpresso_3.4/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2\libcr_eabihelpers.a(float.o)
+ .text.__bhs_ul2f
+                0x00000000        0x0 c:/nxp/lpcxpresso_3.4/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2\libcr_eabihelpers.a(float.o)
+ .text.__aeabi_f2d
+                0x00000000        0x0 c:/nxp/lpcxpresso_3.4/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2\libcr_eabihelpers.a(float.o)
+ .text.__aeabi_fcmpeq
+                0x00000000        0x0 c:/nxp/lpcxpresso_3.4/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2\libcr_eabihelpers.a(float.o)
+ .text.__aeabi_fcmplt
+                0x00000000        0x0 c:/nxp/lpcxpresso_3.4/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2\libcr_eabihelpers.a(float.o)
+ .text.__aeabi_fcmpgt
+                0x00000000        0x0 c:/nxp/lpcxpresso_3.4/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2\libcr_eabihelpers.a(float.o)
+ .text.__aeabi_fcmple
+                0x00000000        0x0 c:/nxp/lpcxpresso_3.4/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2\libcr_eabihelpers.a(float.o)
+ .text.__aeabi_fcmpge
+                0x00000000        0x0 c:/nxp/lpcxpresso_3.4/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2\libcr_eabihelpers.a(float.o)
+ .text.__aeabi_fcmpun
+                0x00000000        0x0 c:/nxp/lpcxpresso_3.4/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2\libcr_eabihelpers.a(float.o)
+ .text.__aeabi_ui2f
+                0x00000000        0x0 c:/nxp/lpcxpresso_3.4/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2\libcr_eabihelpers.a(float.o)
+ .text.__aeabi_i2f
+                0x00000000        0x0 c:/nxp/lpcxpresso_3.4/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2\libcr_eabihelpers.a(float.o)
+ .text.__aeabi_l2f
+                0x00000000        0x0 c:/nxp/lpcxpresso_3.4/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2\libcr_eabihelpers.a(float.o)
+ .text.__aeabi_ul2f
+                0x00000000        0x0 c:/nxp/lpcxpresso_3.4/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2\libcr_eabihelpers.a(float.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+MFlash32         0x00000000         0x00008000         xr
+RamLoc8          0x10000000         0x00002000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD ./src/Arduinator.o
+LOAD ./src/cr_startup_lpc13.o
+LOAD ./src/program.o
+LOAD ./src/timer16_int.o
+LOAD C:\Documents and Settings\amackie\My Documents\SVN\CMSISv1p30_LPC13xx\Release\libCMSISv1p30_LPC13xx.a
+LOAD C:\Documents and Settings\amackie\My Documents\SVN\LPC13xx_Lib\Release\libLPC13xx_Lib.a
+START GROUP
+LOAD c:/nxp/lpcxpresso_3.4/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2\libcr_c.a
+LOAD c:/nxp/lpcxpresso_3.4/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2\libcr_eabihelpers.a
+END GROUP
+                0x00008000                __top_MFlash32 = 0x8000
+                0x10002000                __top_RamLoc8 = 0x10002000
+
+.text           0x00000000      0xe37
+ *(.isr_vector)
+ .isr_vector    0x00000000      0x124 ./src/cr_startup_lpc13.o
+                0x00000000                g_pfnVectors
+ *(.text*)
+ .text.SysTick_Handler
+                0x00000124       0x3c ./src/Arduinator.o
+                0x00000124                SysTick_Handler
+ .text.millis   0x00000160        0xc ./src/Arduinator.o
+                0x00000160                millis
+ .text.delayMicroseconds
+                0x0000016c       0x14 ./src/Arduinator.o
+                0x0000016c                delayMicroseconds
+ .text.strlen   0x00000180       0x10 ./src/Arduinator.o
+                0x00000180                strlen
+ .text.serialEnd
+                0x00000190        0x4 ./src/Arduinator.o
+                0x00000190                serialEnd
+ .text.serialAvailable
+                0x00000194       0x20 ./src/Arduinator.o
+                0x00000194                serialAvailable
+ .text.serialRead
+                0x000001b4       0x34 ./src/Arduinator.o
+                0x000001b4                serialRead
+ .text.serialFlush
+                0x000001e8       0x18 ./src/Arduinator.o
+                0x000001e8                serialFlush
+ .text.initSerial
+                0x00000200       0x60 ./src/Arduinator.o
+                0x00000200                initSerial
+ .text.main     0x00000260       0x78 ./src/Arduinator.o
+                0x00000260                main
+ .text.serialWrite
+                0x000002d8       0x14 ./src/Arduinator.o
+                0x000002d8                serialWrite
+ .text.serialPrintln
+                0x000002ec       0x14 ./src/Arduinator.o
+                0x000002ec                serialPrintln
+ .text.serialPrint
+                0x00000300       0xe8 ./src/Arduinator.o
+                0x00000300                serialPrint
+ .text.serialBegin
+                0x000003e8        0x8 ./src/Arduinator.o
+                0x000003e8                serialBegin
+ .text.pinMode  0x000003f0       0x7c ./src/Arduinator.o
+                0x000003f0                pinMode
+ .text.digitalWrite
+                0x0000046c       0x34 ./src/Arduinator.o
+                0x0000046c                digitalWrite
+ .text.NMI_Handler
+                0x000004a0        0x4 ./src/cr_startup_lpc13.o
+                0x000004a0                NMI_Handler
+ .text.HardFault_Handler
+                0x000004a4        0x4 ./src/cr_startup_lpc13.o
+                0x000004a4                HardFault_Handler
+ .text.MemManage_Handler
+                0x000004a8        0x4 ./src/cr_startup_lpc13.o
+                0x000004a8                MemManage_Handler
+ .text.BusFault_Handler
+                0x000004ac        0x4 ./src/cr_startup_lpc13.o
+                0x000004ac                BusFault_Handler
+ .text.UsageFault_Handler
+                0x000004b0        0x4 ./src/cr_startup_lpc13.o
+                0x000004b0                UsageFault_Handler
+ .text.SVCall_Handler
+                0x000004b4        0x4 ./src/cr_startup_lpc13.o
+                0x000004b4                SVCall_Handler
+ .text.DebugMon_Handler
+                0x000004b8        0x4 ./src/cr_startup_lpc13.o
+                0x000004b8                DebugMon_Handler
+ .text.PendSV_Handler
+                0x000004bc        0x4 ./src/cr_startup_lpc13.o
+                0x000004bc                PendSV_Handler
+ .text.IntDefaultHandler
+                0x000004c0        0x4 ./src/cr_startup_lpc13.o
+                0x000004c0                TIMER32_0_IRQHandler
+                0x000004c0                TIMER32_1_IRQHandler
+                0x000004c0                IntDefaultHandler
+                0x000004c0                PIOINT1_IRQHandler
+                0x000004c0                SSP_IRQHandler
+                0x000004c0                USB_FIQHandler
+                0x000004c0                ADC_IRQHandler
+                0x000004c0                PIOINT2_IRQHandler
+                0x000004c0                USB_IRQHandler
+                0x000004c0                BOD_IRQHandler
+                0x000004c0                WAKEUP_IRQHandler
+                0x000004c0                PIOINT0_IRQHandler
+                0x000004c0                I2C_IRQHandler
+                0x000004c0                WDT_IRQHandler
+                0x000004c0                PIOINT3_IRQHandler
+                0x000004c0                FMC_IRQHandler
+ .text.ResetISR
+                0x000004c4       0x48 ./src/cr_startup_lpc13.o
+                0x000004c4                ResetISR
+ .text.setup    0x0000050c       0x70 ./src/program.o
+                0x0000050c                setup
+ .text.setColourMode
+                0x0000057c       0x5c ./src/program.o
+                0x0000057c                setColourMode
+ .text.pulse    0x000005d8       0x58 ./src/program.o
+                0x000005d8                pulse
+ .text.loop     0x00000630       0x3c ./src/program.o
+                0x00000630                loop
+ .text.TIMER16_0_IRQHandler
+                0x0000066c       0x18 ./src/timer16_int.o
+                0x0000066c                TIMER16_0_IRQHandler
+ .text.TIMER16_1_IRQHandler
+                0x00000684       0x18 ./src/timer16_int.o
+                0x00000684                TIMER16_1_IRQHandler
+ .text.SystemInit
+                0x0000069c       0xbc C:\Documents and Settings\amackie\My Documents\SVN\CMSISv1p30_LPC13xx\Release\libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+                0x0000069c                SystemInit
+ .text.GPIOInit
+                0x00000758       0x38 C:\Documents and Settings\amackie\My Documents\SVN\LPC13xx_Lib\Release\libLPC13xx_Lib.a(gpio.o)
+                0x00000758                GPIOInit
+ .text.GPIOSetDir
+                0x00000790       0xcc C:\Documents and Settings\amackie\My Documents\SVN\LPC13xx_Lib\Release\libLPC13xx_Lib.a(gpio.o)
+                0x00000790                GPIOSetDir
+ .text.GPIOSetValue
+                0x0000085c       0x68 C:\Documents and Settings\amackie\My Documents\SVN\LPC13xx_Lib\Release\libLPC13xx_Lib.a(gpio.o)
+                0x0000085c                GPIOSetValue
+ .text.UART_IRQHandler
+                0x000008c4       0xc0 C:\Documents and Settings\amackie\My Documents\SVN\LPC13xx_Lib\Release\libLPC13xx_Lib.a(uart.o)
+                0x000008c4                UART_IRQHandler
+ .text.UARTInit
+                0x00000984       0xf8 C:\Documents and Settings\amackie\My Documents\SVN\LPC13xx_Lib\Release\libLPC13xx_Lib.a(uart.o)
+                0x00000984                UARTInit
+ .text.UARTSend
+                0x00000a7c       0x24 C:\Documents and Settings\amackie\My Documents\SVN\LPC13xx_Lib\Release\libLPC13xx_Lib.a(uart.o)
+                0x00000a7c                UARTSend
+ .text.__weak_main
+                0x00000aa0       0x10 c:/nxp/lpcxpresso_3.4/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(__weak__main.o)
+                0x00000aa0                __main
+                0x00000aa0                __weak_main
+ .text          0x00000ab0      0x36c c:/nxp/lpcxpresso_3.4/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(ctype.o)
+                0x00000ab0                _start_module_ctype
+                0x00000b84                islower
+                0x00000c74                tolower
+                0x00000bd4                ispunct
+                0x00000bfc                isspace
+                0x00000e10                _end_module_ctype
+                0x00000c4c                isxdigit
+                0x00000d8c                _ctype_init
+                0x00000c24                isupper
+                0x00000ae4                isalpha
+                0x00000b5c                isgraph
+                0x00000abc                isalnum
+                0x00000bac                isprint
+                0x00000cec                _set_ctype_8859
+                0x00000b34                isdigit
+                0x00000b0c                iscntrl
+                0x00000cb0                toupper
+ .text._init_alloc
+                0x00000e1c       0x18 c:/nxp/lpcxpresso_3.4/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(__init_alloc.o)
+                0x00000e1c                _init_alloc
+ *(.rodata*)
+ .rodata.str1.1
+                0x00000e34        0x3 ./src/Arduinator.o
+
+.glue_7         0x00000e38        0x0 load address 0x00000e37
+ .glue_7        0x00000000        0x0 linker stubs
+
+.glue_7t        0x00000e38        0x0 load address 0x00000e37
+ .glue_7t       0x00000000        0x0 linker stubs
+
+.vfp11_veneer   0x00000e38        0x0 load address 0x00000e37
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x00000e38        0x0 load address 0x00000e37
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x00000e38                __exidx_start = .
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x00000e38                __exidx_end = .
+                0x00000e38                _etext = .
+
+.data           0x10000000      0x281 load address 0x00000e37
+                0x10000000                _data = .
+ *(vtable)
+ *(.data*)
+ .data          0x10000000       0x78 ./src/Arduinator.o
+                0x10000000                AM_Pins
+ .data          0x10000078        0x4 C:\Documents and Settings\amackie\My Documents\SVN\CMSISv1p30_LPC13xx\Release\libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+                0x10000078                SystemCoreClock
+ .data          0x1000007c        0x1 C:\Documents and Settings\amackie\My Documents\SVN\LPC13xx_Lib\Release\libLPC13xx_Lib.a(uart.o)
+                0x1000007c                UARTTxEmpty
+ .data          0x1000007d      0x204 c:/nxp/lpcxpresso_3.4/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(ctype.o)
+                0x1000007d                __ctype
+                0x10000281                _edata = .
+
+.bss            0x10000284      0x13c load address 0x000010b8
+                0x10000284                _bss = .
+ *(.bss*)
+ .bss           0x10000284        0x8 ./src/timer16_int.o
+                0x10000284                timer16_0_counter
+                0x10000288                timer16_1_counter
+ .bss           0x1000028c        0x4 C:\Documents and Settings\amackie\My Documents\SVN\LPC13xx_Lib\Release\libLPC13xx_Lib.a(uart.o)
+                0x1000028c                UARTCount
+ *(COMMON)
+ COMMON         0x10000290       0xd8 ./src/Arduinator.o
+                0x10000290                g_randomSeed
+                0x10000294                g_serialBuffer
+                0x10000314                g_systemMicroTicks
+                0x10000318                g_systemMacroTicks
+                0x1000031c                Serial
+                0x1000033c                g_serialEnd
+                0x10000340                g_systemMilliTicks
+                0x10000344                g_serialStart
+                0x10000348                ADCValue
+ COMMON         0x10000368        0xb ./src/program.o
+                0x10000368                colourMode
+                0x1000036c                colourChange
+                0x10000370                blueTime
+                0x10000371                redTime
+                0x10000372                greenTime
+ *fill*         0x10000373        0x1 00
+ COMMON         0x10000374       0x44 C:\Documents and Settings\amackie\My Documents\SVN\LPC13xx_Lib\Release\libLPC13xx_Lib.a(uart.o)
+                0x10000374                UARTBuffer
+                0x100003b4                UARTStatus
+ COMMON         0x100003b8        0x8 c:/nxp/lpcxpresso_3.4/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(__init_alloc.o)
+                0x100003b8                __heaps
+                0x100003bc                __end_of_heap
+                0x100003c0                _ebss = .
+
+.cr_heap        0x100003c0        0x0 load address 0x000010b8
+                0x100003c0                end = .
+                0x100003c0                _pvHeapStart = .
+                0x10002000                _vRamTop = __top_RamLoc8
+                0x10002000                _vStackTop = (_vRamTop - 0x0)
+OUTPUT(Arduinizer.axf elf32-littlearm)
+
+.debug_abbrev   0x00000000      0xc1a
+ .debug_abbrev  0x00000000      0x46d ./src/Arduinator.o
+ .debug_abbrev  0x0000046d       0xbb ./src/cr_startup_lpc13.o
+ .debug_abbrev  0x00000528      0x123 ./src/program.o
+ .debug_abbrev  0x0000064b       0xc6 ./src/timer16_int.o
+ .debug_abbrev  0x00000711       0xf3 C:\Documents and Settings\amackie\My Documents\SVN\CMSISv1p30_LPC13xx\Release\libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+ .debug_abbrev  0x00000804      0x226 C:\Documents and Settings\amackie\My Documents\SVN\LPC13xx_Lib\Release\libLPC13xx_Lib.a(gpio.o)
+ .debug_abbrev  0x00000a2a      0x1f0 C:\Documents and Settings\amackie\My Documents\SVN\LPC13xx_Lib\Release\libLPC13xx_Lib.a(uart.o)
+
+.debug_info     0x00000000     0x3fe3
+ .debug_info    0x00000000     0x1b79 ./src/Arduinator.o
+ .debug_info    0x00001b79      0x1d2 ./src/cr_startup_lpc13.o
+ .debug_info    0x00001d4b      0x2d7 ./src/program.o
+ .debug_info    0x00002022      0x20e ./src/timer16_int.o
+ .debug_info    0x00002230      0x550 C:\Documents and Settings\amackie\My Documents\SVN\CMSISv1p30_LPC13xx\Release\libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+ .debug_info    0x00002780      0xb20 C:\Documents and Settings\amackie\My Documents\SVN\LPC13xx_Lib\Release\libLPC13xx_Lib.a(gpio.o)
+ .debug_info    0x000032a0      0xd43 C:\Documents and Settings\amackie\My Documents\SVN\LPC13xx_Lib\Release\libLPC13xx_Lib.a(uart.o)
+
+.debug_line     0x00000000     0x1c43
+ .debug_line    0x00000000      0x75a ./src/Arduinator.o
+ .debug_line    0x0000075a      0x349 ./src/cr_startup_lpc13.o
+ .debug_line    0x00000aa3      0x392 ./src/program.o
+ .debug_line    0x00000e35      0x319 ./src/timer16_int.o
+ .debug_line    0x0000114e      0x31e C:\Documents and Settings\amackie\My Documents\SVN\CMSISv1p30_LPC13xx\Release\libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+ .debug_line    0x0000146c      0x429 C:\Documents and Settings\amackie\My Documents\SVN\LPC13xx_Lib\Release\libLPC13xx_Lib.a(gpio.o)
+ .debug_line    0x00001895      0x3ae C:\Documents and Settings\amackie\My Documents\SVN\LPC13xx_Lib\Release\libLPC13xx_Lib.a(uart.o)
+
+.debug_macinfo  0x00000000    0x276bc
+ .debug_macinfo
+                0x00000000     0x68db ./src/Arduinator.o
+ .debug_macinfo
+                0x000068db     0x26aa ./src/cr_startup_lpc13.o
+ .debug_macinfo
+                0x00008f85     0x6599 ./src/program.o
+ .debug_macinfo
+                0x0000f51e     0x5f1c ./src/timer16_int.o
+ .debug_macinfo
+                0x0001543a     0x6287 C:\Documents and Settings\amackie\My Documents\SVN\CMSISv1p30_LPC13xx\Release\libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+ .debug_macinfo
+                0x0001b6c1     0x5f2b C:\Documents and Settings\amackie\My Documents\SVN\LPC13xx_Lib\Release\libLPC13xx_Lib.a(gpio.o)
+ .debug_macinfo
+                0x000215ec     0x60d0 C:\Documents and Settings\amackie\My Documents\SVN\LPC13xx_Lib\Release\libLPC13xx_Lib.a(uart.o)
+
+.debug_frame    0x00000000      0x584
+ .debug_frame   0x00000000      0x2f4 ./src/Arduinator.o
+ .debug_frame   0x000002f4       0xc8 ./src/cr_startup_lpc13.o
+ .debug_frame   0x000003bc       0x74 ./src/program.o
+ .debug_frame   0x00000430       0x30 ./src/timer16_int.o
+ .debug_frame   0x00000460       0x30 C:\Documents and Settings\amackie\My Documents\SVN\CMSISv1p30_LPC13xx\Release\libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+ .debug_frame   0x00000490       0xa0 C:\Documents and Settings\amackie\My Documents\SVN\LPC13xx_Lib\Release\libLPC13xx_Lib.a(gpio.o)
+ .debug_frame   0x00000530       0x54 C:\Documents and Settings\amackie\My Documents\SVN\LPC13xx_Lib\Release\libLPC13xx_Lib.a(uart.o)
+
+.debug_loc      0x00000000      0xdcd
+ .debug_loc     0x00000000      0x7a7 ./src/Arduinator.o
+ .debug_loc     0x000007a7       0x1f ./src/cr_startup_lpc13.o
+ .debug_loc     0x000007c6       0x7c ./src/program.o
+ .debug_loc     0x00000842      0x102 C:\Documents and Settings\amackie\My Documents\SVN\CMSISv1p30_LPC13xx\Release\libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+ .debug_loc     0x00000944      0x39f C:\Documents and Settings\amackie\My Documents\SVN\LPC13xx_Lib\Release\libLPC13xx_Lib.a(gpio.o)
+ .debug_loc     0x00000ce3       0xea C:\Documents and Settings\amackie\My Documents\SVN\LPC13xx_Lib\Release\libLPC13xx_Lib.a(uart.o)
+
+.debug_pubnames
+                0x00000000      0x615
+ .debug_pubnames
+                0x00000000      0x2ae ./src/Arduinator.o
+ .debug_pubnames
+                0x000002ae       0xfd ./src/cr_startup_lpc13.o
+ .debug_pubnames
+                0x000003ab       0x93 ./src/program.o
+ .debug_pubnames
+                0x0000043e       0x70 ./src/timer16_int.o
+ .debug_pubnames
+                0x000004ae       0x4f C:\Documents and Settings\amackie\My Documents\SVN\CMSISv1p30_LPC13xx\Release\libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+ .debug_pubnames
+                0x000004fd       0x9c C:\Documents and Settings\amackie\My Documents\SVN\LPC13xx_Lib\Release\libLPC13xx_Lib.a(gpio.o)
+ .debug_pubnames
+                0x00000599       0x7c C:\Documents and Settings\amackie\My Documents\SVN\LPC13xx_Lib\Release\libLPC13xx_Lib.a(uart.o)
+
+.debug_aranges  0x00000000      0x2b8
+ .debug_aranges
+                0x00000000      0x138 ./src/Arduinator.o
+ .debug_aranges
+                0x00000138       0x70 ./src/cr_startup_lpc13.o
+ .debug_aranges
+                0x000001a8       0x38 ./src/program.o
+ .debug_aranges
+                0x000001e0       0x28 ./src/timer16_int.o
+ .debug_aranges
+                0x00000208       0x28 C:\Documents and Settings\amackie\My Documents\SVN\CMSISv1p30_LPC13xx\Release\libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+ .debug_aranges
+                0x00000230       0x58 C:\Documents and Settings\amackie\My Documents\SVN\LPC13xx_Lib\Release\libLPC13xx_Lib.a(gpio.o)
+ .debug_aranges
+                0x00000288       0x30 C:\Documents and Settings\amackie\My Documents\SVN\LPC13xx_Lib\Release\libLPC13xx_Lib.a(uart.o)
+
+.debug_ranges   0x00000000      0x388
+ .debug_ranges  0x00000000      0x198 ./src/Arduinator.o
+ .debug_ranges  0x00000198       0x68 ./src/cr_startup_lpc13.o
+ .debug_ranges  0x00000200       0x30 ./src/program.o
+ .debug_ranges  0x00000230       0x20 ./src/timer16_int.o
+ .debug_ranges  0x00000250       0x20 C:\Documents and Settings\amackie\My Documents\SVN\CMSISv1p30_LPC13xx\Release\libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+ .debug_ranges  0x00000270       0xb8 C:\Documents and Settings\amackie\My Documents\SVN\LPC13xx_Lib\Release\libLPC13xx_Lib.a(gpio.o)
+ .debug_ranges  0x00000328       0x60 C:\Documents and Settings\amackie\My Documents\SVN\LPC13xx_Lib\Release\libLPC13xx_Lib.a(uart.o)
+
+.debug_str      0x00000000     0x1058
+ .debug_str     0x00000000      0xc54 ./src/Arduinator.o
+                                0xd26 (size before relaxing)
+ .debug_str     0x00000c54       0xe8 ./src/cr_startup_lpc13.o
+                                0x1d5 (size before relaxing)
+ .debug_str     0x00000d3c       0x6d ./src/program.o
+                                0x1f7 (size before relaxing)
+ .debug_str     0x00000da9       0x63 ./src/timer16_int.o
+                                0x162 (size before relaxing)
+ .debug_str     0x00000e0c       0x95 C:\Documents and Settings\amackie\My Documents\SVN\CMSISv1p30_LPC13xx\Release\libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+                                0x3ee (size before relaxing)
+ .debug_str     0x00000ea1       0xf0 C:\Documents and Settings\amackie\My Documents\SVN\LPC13xx_Lib\Release\libLPC13xx_Lib.a(gpio.o)
+                                0x7f3 (size before relaxing)
+ .debug_str     0x00000f91       0xc7 C:\Documents and Settings\amackie\My Documents\SVN\LPC13xx_Lib\Release\libLPC13xx_Lib.a(uart.o)
+                                0x987 (size before relaxing)
+
+.comment        0x00000000      0x1d8
+ .comment       0x00000000       0x2b ./src/Arduinator.o
+ .comment       0x0000002b       0x2b ./src/cr_startup_lpc13.o
+ .comment       0x00000056       0x2b ./src/program.o
+ .comment       0x00000081       0x2b ./src/timer16_int.o
+ .comment       0x000000ac       0x2b C:\Documents and Settings\amackie\My Documents\SVN\CMSISv1p30_LPC13xx\Release\libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+ .comment       0x000000d7       0x2b C:\Documents and Settings\amackie\My Documents\SVN\LPC13xx_Lib\Release\libLPC13xx_Lib.a(gpio.o)
+ .comment       0x00000102       0x2b C:\Documents and Settings\amackie\My Documents\SVN\LPC13xx_Lib\Release\libLPC13xx_Lib.a(uart.o)
+ .comment       0x0000012d       0x2b c:/nxp/lpcxpresso_3.4/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(__weak__main.o)
+ .comment       0x00000158       0x2b c:/nxp/lpcxpresso_3.4/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(ctype.o)
+ .comment       0x00000183       0x2b c:/nxp/lpcxpresso_3.4/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(__init_alloc.o)
+ .comment       0x000001ae       0x2a c:/nxp/lpcxpresso_3.4/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2\libcr_eabihelpers.a(float.o)
+
+.ARM.attributes
+                0x00000000       0x31
+ .ARM.attributes
+                0x00000000       0x31 ./src/Arduinator.o
+ .ARM.attributes
+                0x00000031       0x31 ./src/cr_startup_lpc13.o
+ .ARM.attributes
+                0x00000062       0x31 ./src/program.o
+ .ARM.attributes
+                0x00000093       0x31 ./src/timer16_int.o
+ .ARM.attributes
+                0x000000c4       0x31 C:\Documents and Settings\amackie\My Documents\SVN\CMSISv1p30_LPC13xx\Release\libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+ .ARM.attributes
+                0x000000f5       0x31 C:\Documents and Settings\amackie\My Documents\SVN\LPC13xx_Lib\Release\libLPC13xx_Lib.a(gpio.o)
+ .ARM.attributes
+                0x00000126       0x31 C:\Documents and Settings\amackie\My Documents\SVN\LPC13xx_Lib\Release\libLPC13xx_Lib.a(uart.o)
+ .ARM.attributes
+                0x00000157       0x31 c:/nxp/lpcxpresso_3.4/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(__weak__main.o)
+ .ARM.attributes
+                0x00000188       0x31 c:/nxp/lpcxpresso_3.4/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(ctype.o)
+ .ARM.attributes
+                0x000001b9       0x31 c:/nxp/lpcxpresso_3.4/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(__init_alloc.o)
+ .ARM.attributes
+                0x000001ea       0x31 c:/nxp/lpcxpresso_3.4/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2\libcr_eabihelpers.a(float.o)

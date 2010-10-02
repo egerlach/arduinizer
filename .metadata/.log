@@ -1,0 +1,425 @@
+!SESSION 2010-09-23 20:51:56.098 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_18
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data C:\Documents and Settings\amackie\My Documents\SVN\Arduinator
+
+!ENTRY org.eclipse.ui 4 4 2010-09-23 20:52:19.461
+!MESSAGE Unable to find view with id: com.crt.swv.views.SwvViews, when creating perspective com.crt.lite.perspective.CRTPerspective
+
+!ENTRY org.eclipse.ui.workbench 2 0 2010-09-23 20:52:26.431
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2010-09-23 20:52:26.431
+!MESSAGE Conflict for 'AUTOGEN:::com.crt.quickstart.utils/com.crt.quickstart.action.debugconfig':
+HandlerActivation(commandId=AUTOGEN:::com.crt.quickstart.utils/com.crt.quickstart.action.debugconfig,
+	handler=ActionDelegateHandlerProxy(null,com.crt.quickstart.utils.QSUtilCleanDebugConfig),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@54824),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::com.crt.quickstart.utils/com.crt.quickstart.action.debugconfig,
+	handler=ActionDelegateHandlerProxy(null,com.crt.quickstart.utils.QSUtilOpenDebugConfig),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@54824),sourcePriority=16384)
+!SESSION 2010-09-23 21:44:09.684 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_18
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.ui.workbench 2 0 2010-09-23 21:45:18.373
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2010-09-23 21:45:18.373
+!MESSAGE Conflict for 'AUTOGEN:::com.crt.quickstart.utils/com.crt.quickstart.action.debugconfig':
+HandlerActivation(commandId=AUTOGEN:::com.crt.quickstart.utils/com.crt.quickstart.action.debugconfig,
+	handler=ActionDelegateHandlerProxy(null,com.crt.quickstart.utils.QSUtilCleanDebugConfig),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@6014f7),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::com.crt.quickstart.utils/com.crt.quickstart.action.debugconfig,
+	handler=ActionDelegateHandlerProxy(null,com.crt.quickstart.utils.QSUtilOpenDebugConfig),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@6014f7),sourcePriority=16384)
+!SESSION 2010-09-23 21:53:42.658 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_18
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.ui.workbench 2 0 2010-09-23 21:54:26.521
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2010-09-23 21:54:26.521
+!MESSAGE Conflict for 'AUTOGEN:::com.crt.quickstart.utils/com.crt.quickstart.action.debugconfig':
+HandlerActivation(commandId=AUTOGEN:::com.crt.quickstart.utils/com.crt.quickstart.action.debugconfig,
+	handler=ActionDelegateHandlerProxy(null,com.crt.quickstart.utils.QSUtilOpenDebugConfig),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@1b0d33c),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::com.crt.quickstart.utils/com.crt.quickstart.action.debugconfig,
+	handler=ActionDelegateHandlerProxy(null,com.crt.quickstart.utils.QSUtilCleanDebugConfig),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@1b0d33c),sourcePriority=16384)
+!SESSION 2010-09-23 22:03:50.073 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_18
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data C:\Documents and Settings\amackie\My Documents\SVN
+
+!ENTRY org.eclipse.ui.workbench 2 0 2010-09-23 22:04:14.508
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2010-09-23 22:04:14.508
+!MESSAGE Conflict for 'AUTOGEN:::com.crt.quickstart.utils/com.crt.quickstart.action.debugconfig':
+HandlerActivation(commandId=AUTOGEN:::com.crt.quickstart.utils/com.crt.quickstart.action.debugconfig,
+	handler=ActionDelegateHandlerProxy(null,com.crt.quickstart.utils.QSUtilCleanDebugConfig),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@d9cbcb),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::com.crt.quickstart.utils/com.crt.quickstart.action.debugconfig,
+	handler=ActionDelegateHandlerProxy(null,com.crt.quickstart.utils.QSUtilOpenDebugConfig),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@d9cbcb),sourcePriority=16384)
+
+!ENTRY com.crt.log 1 0 2010-09-23 22:48:04.880
+!MESSAGE Drivers loaded in 6269 milliseconds
+
+!ENTRY org.eclipse.ui.console 4 120 2010-09-23 23:27:07.349
+!MESSAGE Error logged from Console plug-in: 
+!STACK 0
+java.io.IOException: Document is closed
+	at org.eclipse.ui.internal.console.IOConsolePartitioner.streamAppended(IOConsolePartitioner.java:453)
+	at org.eclipse.ui.console.IOConsoleOutputStream.notifyParitioner(IOConsoleOutputStream.java:245)
+	at org.eclipse.ui.console.IOConsoleOutputStream.encodedWrite(IOConsoleOutputStream.java:240)
+	at org.eclipse.ui.console.IOConsoleOutputStream.write(IOConsoleOutputStream.java:225)
+	at org.eclipse.ui.console.MessageConsoleStream.print(MessageConsoleStream.java:56)
+	at com.crt.debugmgr.mi.ConsoleDisplayMgr.print(ConsoleDisplayMgr.java:159)
+	at com.crt.debugmgr.mi.ConsoleDisplayMgr.println(ConsoleDisplayMgr.java:171)
+	at com.crt.debugmgr.mi.ConsoleStreamer.handleStream(ConsoleStreamer.java:427)
+	at com.crt.debugmgr.mi.ConsoleStreamer.bufferReceived(ConsoleStreamer.java:238)
+	at com.crt.debugmgr.server.StubServer$ServerNotifier.run(StubServer.java:89)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at com.crt.debugmgr.server.StubServer$ServerNotifier.notifyBufferReceived(StubServer.java:76)
+	at com.crt.debugmgr.server.StubServer.firePacketReceived(StubServer.java:258)
+	at com.crt.debugmgr.server.StubServer.dispatcher(StubServer.java:198)
+	at com.crt.debugmgr.server.StubServer$1.run(StubServer.java:325)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.ui.console 4 120 2010-09-23 23:27:08.450
+!MESSAGE Error logged from Console plug-in: 
+!STACK 0
+java.io.IOException: Document is closed
+	at org.eclipse.ui.internal.console.IOConsolePartitioner.streamAppended(IOConsolePartitioner.java:453)
+	at org.eclipse.ui.console.IOConsoleOutputStream.notifyParitioner(IOConsoleOutputStream.java:245)
+	at org.eclipse.ui.console.IOConsoleOutputStream.encodedWrite(IOConsoleOutputStream.java:240)
+	at org.eclipse.ui.console.IOConsoleOutputStream.write(IOConsoleOutputStream.java:225)
+	at org.eclipse.ui.console.MessageConsoleStream.print(MessageConsoleStream.java:56)
+	at com.crt.debugmgr.mi.ConsoleDisplayMgr.print(ConsoleDisplayMgr.java:159)
+	at com.crt.debugmgr.mi.ConsoleDisplayMgr.println(ConsoleDisplayMgr.java:171)
+	at com.crt.debugmgr.mi.ConsoleStreamer.handleStream(ConsoleStreamer.java:427)
+	at com.crt.debugmgr.mi.ConsoleStreamer.bufferReceived(ConsoleStreamer.java:238)
+	at com.crt.debugmgr.server.StubServer$ServerNotifier.run(StubServer.java:89)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at com.crt.debugmgr.server.StubServer$ServerNotifier.notifyBufferReceived(StubServer.java:76)
+	at com.crt.debugmgr.server.StubServer.firePacketReceived(StubServer.java:258)
+	at com.crt.debugmgr.server.StubServer.dispatcher(StubServer.java:198)
+	at com.crt.debugmgr.server.StubServer$1.run(StubServer.java:325)
+	at java.lang.Thread.run(Unknown Source)
+!SESSION 2010-09-24 22:31:20.327 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_18
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.ui.workbench 2 0 2010-09-24 22:32:46.691
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2010-09-24 22:32:46.691
+!MESSAGE Conflict for 'AUTOGEN:::com.crt.quickstart.utils/com.crt.quickstart.action.debugconfig':
+HandlerActivation(commandId=AUTOGEN:::com.crt.quickstart.utils/com.crt.quickstart.action.debugconfig,
+	handler=ActionDelegateHandlerProxy(null,com.crt.quickstart.utils.QSUtilCleanDebugConfig),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@41f227),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::com.crt.quickstart.utils/com.crt.quickstart.action.debugconfig,
+	handler=ActionDelegateHandlerProxy(null,com.crt.quickstart.utils.QSUtilOpenDebugConfig),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@41f227),sourcePriority=16384)
+!SESSION 2010-09-27 19:49:17.445 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_18
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.ui.workbench 2 0 2010-09-27 19:50:41.566
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2010-09-27 19:50:41.566
+!MESSAGE Conflict for 'AUTOGEN:::com.crt.quickstart.utils/com.crt.quickstart.action.debugconfig':
+HandlerActivation(commandId=AUTOGEN:::com.crt.quickstart.utils/com.crt.quickstart.action.debugconfig,
+	handler=ActionDelegateHandlerProxy(null,com.crt.quickstart.utils.QSUtilCleanDebugConfig),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@5f1ba8),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::com.crt.quickstart.utils/com.crt.quickstart.action.debugconfig,
+	handler=ActionDelegateHandlerProxy(null,com.crt.quickstart.utils.QSUtilOpenDebugConfig),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@5f1ba8),sourcePriority=16384)
+!SESSION 2010-09-27 22:03:06.811 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_18
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.ui.workbench 2 0 2010-09-27 22:03:41.440
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2010-09-27 22:03:41.440
+!MESSAGE Conflict for 'AUTOGEN:::com.crt.quickstart.utils/com.crt.quickstart.action.debugconfig':
+HandlerActivation(commandId=AUTOGEN:::com.crt.quickstart.utils/com.crt.quickstart.action.debugconfig,
+	handler=ActionDelegateHandlerProxy(null,com.crt.quickstart.utils.QSUtilCleanDebugConfig),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@c9f997),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::com.crt.quickstart.utils/com.crt.quickstart.action.debugconfig,
+	handler=ActionDelegateHandlerProxy(null,com.crt.quickstart.utils.QSUtilOpenDebugConfig),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@c9f997),sourcePriority=16384)
+!SESSION 2010-09-27 22:20:00.959 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_18
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.ui.workbench 2 0 2010-09-27 22:21:17.028
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2010-09-27 22:21:17.028
+!MESSAGE Conflict for 'AUTOGEN:::com.crt.quickstart.utils/com.crt.quickstart.action.debugconfig':
+HandlerActivation(commandId=AUTOGEN:::com.crt.quickstart.utils/com.crt.quickstart.action.debugconfig,
+	handler=ActionDelegateHandlerProxy(null,com.crt.quickstart.utils.QSUtilOpenDebugConfig),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@1a2da17),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::com.crt.quickstart.utils/com.crt.quickstart.action.debugconfig,
+	handler=ActionDelegateHandlerProxy(null,com.crt.quickstart.utils.QSUtilCleanDebugConfig),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@1a2da17),sourcePriority=16384)
+!SESSION 2010-09-28 22:00:56.624 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_18
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.ui.workbench 2 0 2010-09-28 22:01:36.070
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2010-09-28 22:01:36.070
+!MESSAGE Conflict for 'AUTOGEN:::com.crt.quickstart.utils/com.crt.quickstart.action.debugconfig':
+HandlerActivation(commandId=AUTOGEN:::com.crt.quickstart.utils/com.crt.quickstart.action.debugconfig,
+	handler=ActionDelegateHandlerProxy(null,com.crt.quickstart.utils.QSUtilOpenDebugConfig),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@9319d9),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::com.crt.quickstart.utils/com.crt.quickstart.action.debugconfig,
+	handler=ActionDelegateHandlerProxy(null,com.crt.quickstart.utils.QSUtilCleanDebugConfig),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@9319d9),sourcePriority=16384)
+
+!ENTRY com.crt.log 1 0 2010-09-28 22:09:54.317
+!MESSAGE Drivers loaded in 2464 milliseconds
+
+!ENTRY com.crt.lite.brand 4 -1 2010-09-28 22:09:58.523
+!MESSAGE Internal error: cannot find image LPCXpresso_16x16
+
+!ENTRY org.eclipse.ui.console 4 120 2010-09-29 00:32:11.312
+!MESSAGE Error logged from Console plug-in: 
+!STACK 0
+java.io.IOException: Document is closed
+	at org.eclipse.ui.internal.console.IOConsolePartitioner.streamAppended(IOConsolePartitioner.java:453)
+	at org.eclipse.ui.console.IOConsoleOutputStream.notifyParitioner(IOConsoleOutputStream.java:245)
+	at org.eclipse.ui.console.IOConsoleOutputStream.encodedWrite(IOConsoleOutputStream.java:240)
+	at org.eclipse.ui.console.IOConsoleOutputStream.write(IOConsoleOutputStream.java:225)
+	at org.eclipse.ui.console.MessageConsoleStream.print(MessageConsoleStream.java:56)
+	at com.crt.debugmgr.mi.ConsoleDisplayMgr.print(ConsoleDisplayMgr.java:159)
+	at com.crt.debugmgr.mi.ConsoleDisplayMgr.println(ConsoleDisplayMgr.java:171)
+	at com.crt.debugmgr.mi.ConsoleStreamer.handleStream(ConsoleStreamer.java:427)
+	at com.crt.debugmgr.mi.ConsoleStreamer.bufferReceived(ConsoleStreamer.java:238)
+	at com.crt.debugmgr.server.StubServer$ServerNotifier.run(StubServer.java:89)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at com.crt.debugmgr.server.StubServer$ServerNotifier.notifyBufferReceived(StubServer.java:76)
+	at com.crt.debugmgr.server.StubServer.firePacketReceived(StubServer.java:258)
+	at com.crt.debugmgr.server.StubServer.dispatcher(StubServer.java:198)
+	at com.crt.debugmgr.server.StubServer$1.run(StubServer.java:325)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.ui.console 4 120 2010-09-29 00:32:12.444
+!MESSAGE Error logged from Console plug-in: 
+!STACK 0
+java.io.IOException: Document is closed
+	at org.eclipse.ui.internal.console.IOConsolePartitioner.streamAppended(IOConsolePartitioner.java:453)
+	at org.eclipse.ui.console.IOConsoleOutputStream.notifyParitioner(IOConsoleOutputStream.java:245)
+	at org.eclipse.ui.console.IOConsoleOutputStream.encodedWrite(IOConsoleOutputStream.java:240)
+	at org.eclipse.ui.console.IOConsoleOutputStream.write(IOConsoleOutputStream.java:225)
+	at org.eclipse.ui.console.MessageConsoleStream.print(MessageConsoleStream.java:56)
+	at com.crt.debugmgr.mi.ConsoleDisplayMgr.print(ConsoleDisplayMgr.java:159)
+	at com.crt.debugmgr.mi.ConsoleDisplayMgr.println(ConsoleDisplayMgr.java:171)
+	at com.crt.debugmgr.mi.ConsoleStreamer.handleStream(ConsoleStreamer.java:427)
+	at com.crt.debugmgr.mi.ConsoleStreamer.bufferReceived(ConsoleStreamer.java:238)
+	at com.crt.debugmgr.server.StubServer$ServerNotifier.run(StubServer.java:89)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at com.crt.debugmgr.server.StubServer$ServerNotifier.notifyBufferReceived(StubServer.java:76)
+	at com.crt.debugmgr.server.StubServer.firePacketReceived(StubServer.java:258)
+	at com.crt.debugmgr.server.StubServer.dispatcher(StubServer.java:198)
+	at com.crt.debugmgr.server.StubServer$1.run(StubServer.java:325)
+	at java.lang.Thread.run(Unknown Source)
+!SESSION 2010-09-29 20:21:43.492 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_18
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.ui.workbench 2 0 2010-09-29 20:22:27.736
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2010-09-29 20:22:27.736
+!MESSAGE Conflict for 'AUTOGEN:::com.crt.quickstart.utils/com.crt.quickstart.action.debugconfig':
+HandlerActivation(commandId=AUTOGEN:::com.crt.quickstart.utils/com.crt.quickstart.action.debugconfig,
+	handler=ActionDelegateHandlerProxy(null,com.crt.quickstart.utils.QSUtilCleanDebugConfig),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@1e2481b),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::com.crt.quickstart.utils/com.crt.quickstart.action.debugconfig,
+	handler=ActionDelegateHandlerProxy(null,com.crt.quickstart.utils.QSUtilOpenDebugConfig),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@1e2481b),sourcePriority=16384)
+
+!ENTRY com.crt.log 1 0 2010-09-29 20:59:13.227
+!MESSAGE Drivers loaded in 3846 milliseconds
+
+!ENTRY com.crt.lite.brand 4 -1 2010-09-29 20:59:23.452
+!MESSAGE Internal error: cannot find image LPCXpresso_16x16
+
+!ENTRY com.crt.debugmgr 4 0 2010-09-29 21:02:05.335
+!MESSAGE 16: Target error from status-poll
+!SUBENTRY 1 com.crt.debugmgr 4 0 2010-09-29 21:02:05.335
+!MESSAGE 16: Target error from status-poll
+!SUBENTRY 1 com.crt.debugmgr 4 0 2010-09-29 21:02:05.335
+!MESSAGE IO Error - cable disconnected?
+!SUBENTRY 1 com.crt.debugmgr 4 0 2010-09-29 21:02:05.335
+!MESSAGE Not connected to emulator.
+
+!ENTRY com.crt.debugmgr 4 0 2010-09-29 21:02:10.712
+!MESSAGE 15: Target error from Register access
+!SUBENTRY 1 com.crt.debugmgr 4 0 2010-09-29 21:02:10.712
+!MESSAGE 15: Target error from Register access
+!SUBENTRY 1 com.crt.debugmgr 4 0 2010-09-29 21:02:10.712
+!MESSAGE Cannot access core regs when target running.
+
+!ENTRY com.crt.log 1 0 2010-09-29 21:02:28.027
+!MESSAGE Drivers loaded in 2594 milliseconds
+
+!ENTRY com.crt.debugmgr 4 0 2010-09-29 21:02:59.202
+!MESSAGE 16: Target error from status-poll
+!SUBENTRY 1 com.crt.debugmgr 4 0 2010-09-29 21:02:59.202
+!MESSAGE 16: Target error from status-poll
+!SUBENTRY 1 com.crt.debugmgr 4 0 2010-09-29 21:02:59.212
+!MESSAGE Not connected to emulator.
+
+!ENTRY com.crt.debugmgr 4 0 2010-09-29 21:03:46.350
+!MESSAGE 15: Target error from Register access
+!SUBENTRY 1 com.crt.debugmgr 4 0 2010-09-29 21:03:46.350
+!MESSAGE 15: Target error from Register access
+!SUBENTRY 1 com.crt.debugmgr 4 0 2010-09-29 21:03:46.350
+!MESSAGE Cannot access core regs when target running.
+
+!ENTRY com.crt.log 1 0 2010-09-29 21:04:23.173
+!MESSAGE Drivers loaded in 2063 milliseconds
+
+!ENTRY com.crt.debugmgr 4 0 2010-09-29 21:06:02.656
+!MESSAGE 16: Target error from status-poll
+!SUBENTRY 1 com.crt.debugmgr 4 0 2010-09-29 21:06:02.656
+!MESSAGE 16: Target error from status-poll
+!SUBENTRY 1 com.crt.debugmgr 4 0 2010-09-29 21:06:02.656
+!MESSAGE Not connected to emulator.
+
+!ENTRY com.crt.debugmgr 4 0 2010-09-29 21:06:23.566
+!MESSAGE 15: Target error from Register access
+!SUBENTRY 1 com.crt.debugmgr 4 0 2010-09-29 21:06:23.566
+!MESSAGE 15: Target error from Register access
+!SUBENTRY 1 com.crt.debugmgr 4 0 2010-09-29 21:06:23.566
+!MESSAGE Cannot access core regs when target running.
+
+!ENTRY com.crt.log 1 0 2010-09-29 21:06:34.061
+!MESSAGE Drivers loaded in 2093 milliseconds
+
+!ENTRY com.crt.log 1 0 2010-09-29 21:15:56.570
+!MESSAGE Drivers loaded in 2494 milliseconds
+
+!ENTRY com.crt.ctrlcenter 4 -1 2010-09-29 21:17:12.779
+!MESSAGE Error launching Debug\Arduinizer.axf
+02: Failed on connect: Ee(82). Device not found: 
+
+!ENTRY com.crt.log 1 0 2010-09-29 21:17:40.820
+!MESSAGE Drivers loaded in 3625 milliseconds
+
+!ENTRY com.crt.debugmgr 4 0 2010-09-29 22:13:48.482
+!MESSAGE 16: Target error from status-poll
+!SUBENTRY 1 com.crt.debugmgr 4 0 2010-09-29 22:13:48.482
+!MESSAGE 16: Target error from status-poll
+!SUBENTRY 1 com.crt.debugmgr 4 0 2010-09-29 22:13:48.482
+!MESSAGE System rejected access at location 0xE000EDF0 - verify Population of memory and peripherals
+
+!ENTRY com.crt.debugmgr 4 0 2010-09-29 22:13:49.904
+!MESSAGE 16: Target error from status-poll
+!SUBENTRY 1 com.crt.debugmgr 4 0 2010-09-29 22:13:49.904
+!MESSAGE 16: Target error from status-poll
+!SUBENTRY 1 com.crt.debugmgr 4 0 2010-09-29 22:13:49.904
+!MESSAGE Bad ACK returned from status - wire error.
+!SUBENTRY 1 com.crt.debugmgr 4 0 2010-09-29 22:13:49.904
+!MESSAGE Not connected to emulator.
+
+!ENTRY com.crt.debugmgr 4 0 2010-09-29 22:17:30.351
+!MESSAGE 15: Target error from Register access
+!SUBENTRY 1 com.crt.debugmgr 4 0 2010-09-29 22:17:30.351
+!MESSAGE 15: Target error from Register access
+!SUBENTRY 1 com.crt.debugmgr 4 0 2010-09-29 22:17:30.351
+!MESSAGE Cannot access core regs when target running.
+
+!ENTRY com.crt.log 1 0 2010-09-29 22:18:03.158
+!MESSAGE Drivers loaded in 2633 milliseconds
+
+!ENTRY com.crt.debugmgr 4 0 2010-09-29 22:50:38.740
+!MESSAGE 16: Target error from status-poll
+!SUBENTRY 1 com.crt.debugmgr 4 0 2010-09-29 22:50:38.740
+!MESSAGE 16: Target error from status-poll
+!SUBENTRY 1 com.crt.debugmgr 4 0 2010-09-29 22:50:38.740
+!MESSAGE Bad ACK returned from status - wire error.
+
+!ENTRY com.crt.debugmgr 4 0 2010-09-29 22:50:42.125
+!MESSAGE 15: Target error from Register access
+!SUBENTRY 1 com.crt.debugmgr 4 0 2010-09-29 22:50:42.125
+!MESSAGE 15: Target error from Register access
+!SUBENTRY 1 com.crt.debugmgr 4 0 2010-09-29 22:50:42.125
+!MESSAGE Cannot access core regs when target running.
+
+!ENTRY com.crt.log 1 0 2010-09-29 22:50:52.039
+!MESSAGE Drivers loaded in 1892 milliseconds
+
+!ENTRY com.crt.ctrlcenter 4 -1 2010-09-29 22:56:25.148
+!MESSAGE Error launching Debug\Arduinizer.axf
+02: Failed on connect: Ee(82). Device not found: 
+
+!ENTRY com.crt.log 1 0 2010-09-29 22:56:57.215
+!MESSAGE Drivers loaded in 2003 milliseconds
+
+!ENTRY com.crt.debugmgr 4 0 2010-09-29 22:59:41.801
+!MESSAGE 16: Target error from status-poll
+!SUBENTRY 1 com.crt.debugmgr 4 0 2010-09-29 22:59:41.801
+!MESSAGE 16: Target error from status-poll
+!SUBENTRY 1 com.crt.debugmgr 4 0 2010-09-29 22:59:41.801
+!MESSAGE IO Error - cable disconnected?
+!SUBENTRY 1 com.crt.debugmgr 4 0 2010-09-29 22:59:41.801
+!MESSAGE Not connected to emulator.
+
+!ENTRY com.crt.debugmgr 4 0 2010-09-29 23:13:40.898
+!MESSAGE 15: Target error from Register access
+!SUBENTRY 1 com.crt.debugmgr 4 0 2010-09-29 23:13:40.898
+!MESSAGE 15: Target error from Register access
+!SUBENTRY 1 com.crt.debugmgr 4 0 2010-09-29 23:13:40.898
+!MESSAGE Cannot access core regs when target running.
+
+!ENTRY com.crt.debugmgr 4 0 2010-09-29 23:13:44.833
+!MESSAGE 15: Target error from Register access
+!SUBENTRY 1 com.crt.debugmgr 4 0 2010-09-29 23:13:44.833
+!MESSAGE 15: Target error from Register access
+!SUBENTRY 1 com.crt.debugmgr 4 0 2010-09-29 23:13:44.833
+!MESSAGE Cannot access core regs when target running.
+
+!ENTRY com.crt.log 1 0 2010-09-29 23:14:40.253
+!MESSAGE Drivers loaded in 6609 milliseconds
+
+!ENTRY org.eclipse.debug.core 4 125 2010-09-29 23:55:18.860
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: Write end dead
+	at java.io.PipedInputStream.read(Unknown Source)
+	at java.io.PipedInputStream.read(Unknown Source)
+	at java.io.BufferedInputStream.read1(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at java.io.FilterInputStream.read(Unknown Source)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:144)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.access$1(OutputStreamMonitor.java:134)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor$1.run(OutputStreamMonitor.java:207)
+	at java.lang.Thread.run(Unknown Source)
