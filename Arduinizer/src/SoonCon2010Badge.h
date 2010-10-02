@@ -13,3 +13,7 @@
 #define LIGHT_2_RED   21
 #define LIGHT_2_GREEN  5
 #define LIGHT_2_BLUE  25
+
+// IR devices
+#define IR_LED 39
+#define IR_RECV 36
