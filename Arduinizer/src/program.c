@@ -1,3 +1,5 @@
+/* -*- tab-width: 4 -*-
+
 /*
  * program.c
  * =========
@@ -5,6 +7,9 @@
  *
  *  Created on: Sep 2, 2010
  *      Author: amackie
+ *
+ *  Modified on: Oct 11, 2010
+ *      By: Jonathan Lamothe <jonathan@jlamothe.net>
  */
 
 // Use the Arduino & SOONCon libraries.
@@ -26,13 +31,13 @@ unsigned int colourChange;	// Keeps track of when the lower LED colour should ch
 // Same for greenTime and blueTime.
 void pulse()
 {
-	byte pulse=0;	// Beginning of pulse.
-	for(pulse=0;pulse<255;pulse++)
+  int pulse = 0;				// Beginning of pulse.
+  for(pulse = 0; pulse <= 255; pulse++)
 	{
-		digitalWrite(LIGHT_1_RED,   redTime   >= pulse ? HIGH : LOW);
-		digitalWrite(LIGHT_1_GREEN, greenTime >= pulse ? HIGH : LOW);
-		digitalWrite(LIGHT_1_BLUE,  blueTime  >= pulse ? HIGH : LOW);
-		delayMicroseconds(10);
+	  digitalWrite(LIGHT_1_RED,   redTime   >= pulse ? HIGH : LOW);
+	  digitalWrite(LIGHT_1_GREEN, greenTime >= pulse ? HIGH : LOW);
+	  digitalWrite(LIGHT_1_BLUE,  blueTime  >= pulse ? HIGH : LOW);
+	  delayMicroseconds(10);
 	}
 }
 

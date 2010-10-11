@@ -29,7 +29,7 @@ all: Arduinizer.axf
 Arduinizer.axf: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: MCU Linker'
-	arm-none-eabi-gcc -nostdlib -L"C:\Documents and Settings\amackie\My Documents\SVN\CMSISv1p30_LPC13xx\Release" -L"C:\Documents and Settings\amackie\My Documents\SVN\LPC13xx_Lib\Release" -Xlinker --gc-sections -Xlinker -Map=Arduinizer.map -mcpu=cortex-m3 -mthumb -T "Arduinizer_Release.ld" -o"Arduinizer.axf" $(OBJS) $(USER_OBJS) $(LIBS)
+	arm-none-eabi-gcc -nostdlib -L"/home/jlamothe/src/arduinizer/CMSISv1p30_LPC13xx/Release" -L"/home/jlamothe/src/arduinizer/LPC13xx_Lib/Release" -Xlinker --gc-sections -Xlinker -Map=Arduinizer.map -mcpu=cortex-m3 -mthumb -T "Arduinizer_Release.ld" -o"Arduinizer.axf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 	$(MAKE) --no-print-directory post-build
