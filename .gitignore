@@ -1,5 +1,10 @@
 *~
 .metadata
+subdir.mk
 *.a
+*.axf
 *.bin
+*.d
 *.ld
+*.o
+*.map
