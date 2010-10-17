@@ -383,7 +383,7 @@ byte digitalRead(byte pin)
 	}
 
 	AM_LCPXPin lcpxPin = AM_Pins[pin];
-	byte value = 0;
+	uint32_t value = 0;
 	switch ( lcpxPin.Port )
 	{
 	case PORT0:
