@@ -314,7 +314,7 @@ void randomSeed(long seed)
 }
 unsigned int random(unsigned int max)
 {
-	g_randomSeed <<= 3;
+	g_randomSeed >>= 3;
 	g_randomSeed *= 0xF12CAC2D;
 	return(g_randomSeed % max);
 }
