@@ -1,4 +1,4 @@
-/* -*- tab-width: 4 -*-
+/* -*- tab-width: 4 -*- */
 
 /*
  * program.c
