@@ -1,3 +1,5 @@
+/* -*- tab-width: 4 -*- */
+
 //*****************************************************************************
 //
 // THIS SOFTWARE IS PROVIDED "AS IS".  NO WARRANTIES, WHETHER EXPRESS, IMPLIED
@@ -241,13 +243,12 @@ AM_LCPXPin AM_Pins[] =
 	{3, 0, AM_UNSET}, {3, 1, AM_UNSET}, {3, 2, AM_UNSET}, {3, 3, AM_UNSET}
 };
 
-volatile uint32_t g_systemMicroTicks;                            /* counts 1 microsecond */
-volatile uint32_t g_systemMacroTicks;                            /* counts 2^32 microseconds (about 1.1 hrs) */
-volatile uint32_t g_systemMilliTicks;                            /* counts 2^32 milliseconds (about 49 days) */
+volatile uint32_t g_systemMicroTicks; /* Counts microseconds. */
+volatile uint32_t g_systemMacroTicks; /* Increments every 2^32
+										 microseconds. */
+volatile uint32_t g_systemMilliTicks; /* Counts milliseconds. */
 
 extern volatile uint32_t timer16_0_counter;
-
-#define MICROSECONDSPERMILLISECOND 1000
 
 // volatile uint32_t timer16_0_counter = 0;
 // volatile uint32_t timer16_1_counter = 0;
@@ -295,16 +296,14 @@ void TIMER16_1_IRQHandler(void)
  *----------------------------------------------------------------------------*/
 void SysTick_Handler(void)
 {
-	g_systemMicroTicks+=10;                        // increment counter necessary in Delay()
-	if(0 == g_systemMicroTicks)					// @todo: Will the overhead make this inaccurate? If so, increase sample frequency.
-	{
+  g_systemMicroTicks+=10;
+  while(g_systemMicroTicks >= 1000)
+    {
+      g_systemMicroTicks -= 1000;
+      g_systemMilliTicks++;
+      if(g_systemMilliTicks == 0)
 		g_systemMacroTicks++;
-	}
-
-	if(0 == g_systemMicroTicks  % MICROSECONDSPERMILLISECOND)
-	{
-		g_systemMilliTicks++;
-	}
+    }
 }
 
 long g_randomSeed;
@@ -442,12 +441,12 @@ void noTone(byte pin)
 
 unsigned int micros()
 {
-	return(g_systemMicroTicks);
+  return g_systemMilliTicks * 1000 + g_systemMicroTicks;
 }
 
 unsigned int millis()
 {
-	return(g_systemMilliTicks);
+  return g_systemMilliTicks;
 }
 
 // todo: Check out "LPC1343 Code Base" which has SPI and ADC functions
@@ -458,17 +457,49 @@ unsigned int millis()
   delays number of tick Systicks (happens every 1 ms)
   Taken from example program "systick".
  *------------------------------------------------------------------------------*/
+void sys_hold_until(uint32_t macro, uint32_t milli, uint32_t micro)
+{
+  while(micro >= 1000)
+	{
+	  micro -= 1000;
+	  milli++;
+	  if(milli == 0)
+		macro++;
+	}
+  while(g_systemMacroTicks <= macro)
+	{
+	  if(g_systemMacroTicks < macro)
+		continue;
+	  if(g_systemMilliTicks > milli)
+		break;
+	  if(g_systemMilliTicks < milli)
+		continue;
+	  if(g_systemMicroTicks >= micro)
+		break;
+	}
+}
+
 void delay (uint32_t ms)
 {
-	uint32_t curTicks = millis();
-	while ((millis() - curTicks) < ms);
+  uint32_t macro = g_systemMacroTicks, milli = g_systemMilliTicks;
+  if(milli + ms < milli)
+	macro++;
+  milli += ms;
+  sys_hold_until(macro, milli, g_systemMicroTicks);
 }
 
 void delayMicroseconds(unsigned int us)
 {
-	uint32_t curTicks = micros();
-	while ((micros() - curTicks) < us);
+  uint32_t macro = g_systemMacroTicks,
+	milli = g_systemMilliTicks,
+	micro = g_systemMicroTicks;
+  micro += us % 1000;
+  if(milli + us / 1000 < milli)
+	macro++;
+  milli += us / 1000;
+  sys_hold_until(macro, milli, micro);
 }
+
 void shiftOut(byte dataPin, byte clockPin, byte bitOrder, byte value)
 {
 	byte clockOut = HIGH;
@@ -712,6 +743,7 @@ int main (void)
   GPIOInit();
 
   g_systemMicroTicks = 0;
+  g_systemMilliTicks = 0;
   g_systemMacroTicks = 0;
 
   initSerial();
